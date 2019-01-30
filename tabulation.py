@@ -38,7 +38,7 @@ else:
     5 --- cos(x)\t  6 --- tan(x**2) \t 7 ---exp(x) \t 8 ---sqrt(|x|))
 
     """)
-    sys.exit(1)
+	sys.exit(1)
 
 plt.plot(xval, yval)
 plt.show()
