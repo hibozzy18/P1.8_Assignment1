@@ -18,3 +18,5 @@ if(len(sys.argv) == 2):
 else:
 	pass
 
+plt.plot(xval, yval)
+plt.show()
