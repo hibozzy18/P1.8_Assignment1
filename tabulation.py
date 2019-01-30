@@ -16,7 +16,13 @@ if(len(sys.argv) == 2):
     	yval = [x for x in xval]
     	pass
 else:
-	pass
+	print(""""
+    Wrong argument list!!. 
+    Usage:Tabulation.py N where N is a number between from 1 to 8 inclusive.\n
+    N has the following options:
+    1 ---   f(x) 
+    """)
+    sys.exit(1)
 
 plt.plot(xval, yval)
 plt.show()
