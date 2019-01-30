@@ -25,7 +25,7 @@ else:
     Wrong argument list!!. 
     Usage:Tabulation.py N where N is a number between from 1 to 8 inclusive.\n
     N has the following options:
-    1 ---   f(x) 
+    1 ---   f(x) \t 2 ---sin(x) 3 --- cos(x)\t  4 --- tan(x**2) \t 
     """)
     sys.exit(1)
 
