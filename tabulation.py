@@ -14,7 +14,12 @@ if(len(sys.argv) == 2):
     option = sys.argv[1]
     if(int(option) == 1):
     	yval = [x for x in xval]
-    	pass
+    elif(int(option) == 2):
+    	yval = [np.sin(x) for x in xval]
+    elif(int(option) == 3):
+    	yval = [np.cos(x) for x in xval]
+    elif(int(option) == 4):
+    	yval = [np.tan(x) for x in xval]
 else:
 	pass
 
